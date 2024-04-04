@@ -1,1 +1,60 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'Online Market';
+    src: url('fonte/Online\ Market.otf') format(opentype);
+}
+body{
+    background-color: white;
+
+}
+header{
+    text-align: center;
+    background-color: black;
+    padding: 1px;
+    margin: -25px;
+    
+    
+}
+
+.titulo{
+    color: white;
+    background-color: black;
+    font-family: 'Online Market';
+    font-size: 72px;
+    margin-bottom: 5px;
+   
+}
+header>p{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 25px;
+    
+    
+
+}
+header>p>a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+header>p>a:hover{
+    color: rgb(114, 112, 112);
+    transition-duration: 0.15s;
+}
+
+
+main{
+     font-family:"Azeret Mono";
+      font-optical-sizing: auto;
+     font-weight: normal;
+     font-style: italic;
+     font-size: 30px;
+      margin-top: 30px;
+      margin-left: 20px;
+}
+
+main>p {
+    margin-top: 50px;
+    
+}
