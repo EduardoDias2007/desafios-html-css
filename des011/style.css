@@ -11,7 +11,7 @@ header{
     text-align: center;
     background-color: black;
     padding: 1px;
-    margin: -25px;
+    margin: -8px;
     
     
 }
@@ -47,14 +47,88 @@ header>p>a:hover{
 main{
      font-family:"Azeret Mono";
       font-optical-sizing: auto;
-     font-weight: normal;
+     font-weight: bold;
      font-style: italic;
      font-size: 30px;
-      margin-top: 30px;
-      margin-left: 20px;
+
+
+      padding: 20px;
+      margin: auto;
+      
+}
+main>div{
+    margin-top: 100px;
+    
+}
+.joaninha{
+    background-image: url("imagem/background001.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    width: 1194px;
+    height: 650px;
+    right: 28px;
+    top: 10px;
+    
+    
+}
+div#fundo{
+    
+    width: 415px;
+    height: 490px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 1px;
+    padding-top: 47px;
+    
 }
 
-main>p {
-    margin-top: 50px;
+div#branco{
+    margin-top: 10%;
+    background-color: rgba(0, 0, 0, 0.209);
+    color: white;
+    padding-left: 35px;
+    padding-top: 1px;
     
+   
+}
+
+main>div>p {   
+    padding: 10px;
+    margin: 1px;
+
+}
+div.escrita{
+    background-image: url("imagem/background002.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    width: 1194px;
+    height: 650px;
+    right: 28px;
+    top: 10px;
+}
+div.papel{
+    margin-top: 10%;
+    background-color: rgba(0, 0, 0, 0.595);
+    color: white;
+    padding-left: 35px;
+    padding-top: 1px;
+}
+aside{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1px;
+    margin: -8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+aside>a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
