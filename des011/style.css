@@ -12,7 +12,7 @@ header{
     text-align: center;
     background-color: black;
     padding: 1px;
-    margin: -8px;
+    
     
     
 }
@@ -54,45 +54,66 @@ main{
      font-weight: bold;
      font-style: italic;
      font-size: 5.5vh;
-      
+     
       margin: auto;
       
+}
+main>p{
+    padding-bottom: 2em;
+    
 }
 main>div{
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 50px;
     
+    
 }
 
 div#img01{
     background-image: url("imagem/background001.jpg");
     background-position: right center;
-    background-color: black;
+    background-color: rgb(255, 254, 254);
+    box-shadow: inset 6px 5px 13px rgb(0, 0, 0);
+    background-attachment: fixed;
+    
 }  
+div#img02{
+    background-image: url("imagem/background002.jpg");
+    background-position: right center;
+    background-color: rgb(255, 251, 251);  
+    background-size: cover;
+    box-shadow: inset 6px 5px 13px 0px rgba(0, 0, 0, 0.485);
+    background-attachment: fixed;
+}
 
 
 div.fundo{
-  background-color: rgba(0, 0, 0, 0.209);
+  
   color: white;  
-  width: 400px;
-  padding: 5px;
-  line-height: 30px;
+  
+  margin-right: 10px;
   
 
 }
-div#fundo>p{
+.fundo>p{
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.62);
+    text-shadow: 1px 1px 0px black;
+    width: 400px;
+    line-height: 30px;
 }
 
 
 
 main>div>p {   
     padding: 10px;
-    margin: 1px;
+    margin-left: 30px;
 
 }
+
+
 div.escrita{
     background-image: url("imagem/background002.jpg");
     background-position: center center;
@@ -116,10 +137,9 @@ aside{
     background-color: black;
     color: white;
     padding: 1px;
-    margin: -8px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 aside>a{
     color: white;
